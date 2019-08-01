@@ -36,9 +36,9 @@ A project that runs a Nginx, Node server and a react app(just build) via two sep
 ### -  Nginx Image
 	
 Nginx and Letsencrypt configuration consists of 3 files. 
-	  - [nginx.conf](https://github.com/umputun/nginx-le) 
-	  - [nginx_my.conf](https://github.com/umputun/nginx-le)
-	  - [nginx.env](https://github.com/umputun/nginx-le)
+	  - [nginx.conf](https://github.com/baozdemir/docker-prop-nrn/blob/master/nginx/nginx.conf) 
+	  - [nginx_my.conf](https://github.com/baozdemir/docker-prop-nrn/blob/master/nginx/nginx_my.conf)
+	  - [nginx.env](https://github.com/baozdemir/docker-prop-nrn/blob/master/nginx/nginx.env)
 	  
 [...more](https://github.com/umputun/nginx-le)
 
