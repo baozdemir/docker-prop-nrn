@@ -1,0 +1,12 @@
+pipelines:
+  branches:
+    metro:
+      - step:
+          name: Deploy to PRODUCTION
+          deployment: production
+          script:
+            - echo -e `which ssh`
+            - cat ./pipe.sh | ssh root@ipaddress
+            - echo "Deploy step finished"
+
+
